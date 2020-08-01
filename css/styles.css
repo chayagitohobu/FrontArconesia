@@ -1,0 +1,27 @@
+.h100 {
+    min-height: 100vh;
+}
+
+.h80 {
+    min-height: 80vh;
+}
+
+.h50 {
+    min-height: 50vh;
+}
+
+
+.h30 {
+    min-height: 30vh;
+}
+
+.bg-cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg1 {
+    background-image: url(images/default.png) !important;
+
+}
