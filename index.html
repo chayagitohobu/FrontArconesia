@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
     <title>Arconesia</title>
 </head>
 
@@ -61,8 +62,10 @@
     <div class="container-fluid pb-5">
         <div class="container">
             <div class="row h100">
-                <div class="col-lg-12 col-xl-6 p-5 mt-2">
-                    <h1 class=" mt-5 text-uppercase">Arco <br> nesia.</h1>
+                <div class="col-lg-12 col-xl-6 p-5 mt-2" data-sal-duration="2000" data-sal-dalay="100"
+                    data-sal-easing="ease-out-bounce" data-sal="slide-right">
+                    <h1 data-sal-duration="2000" data-sal-dalay="100" data-sal-easing="ease-out-bounce"
+                        class=" mt-5 text-uppercase">Arco <br> nesia.</h1>
                     <br>
                     <p style="font-weight: 900;">one stop platform for future agriculture in Indonesian</p>
                     <hr>
@@ -83,7 +86,9 @@
     <div class="container-fluid h30  pb-5">
         <div class="container">
             <div class="row ">
-                <h3 class=" text-uppercase p-5">Arconesia merupakan Platform yang membantu petani dalam
+                <h3 data-sal-duration="2000" data-sal-dalay="100" data-sal-easing="ease-out-bounce" data-sal="slide-up"
+                    class="text-uppercase p-5">Arconesia merupakan Platform yang membantu petani
+                    dalam
                     meningkatkan kemampuan
                     produksi, dengan prinsip-prinsip Agroekologi.</h3>
                 <div class="col-xl-7 col-lg-12 p-5 mb-5">
@@ -124,7 +129,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-xl-4 p-5 mb-2">
-                    <h3 class="mb-5 text-uppercase">SELALU SEGAR, LANGSUNG DARI LADANG</h3>
+                    <h3 data-sal-duration="2000" data-sal-dalay="100" data-sal-easing="ease-out-bounce"
+                        data-sal="slide-up" class="mb-5 text-uppercase">SELALU SEGAR,
+                        LANGSUNG DARI LADANG</h3>
                     <p>
                         Komoditas-komuditas segar langsung dari petani dengan harga yang sangat wajar</p>
                     <hr>
@@ -230,7 +237,9 @@
 
                 <div class="col-xl-6 col-lg-12 text-left">
                     <div class="p-4">
-                        <h3 class="text-uppercase">Kami berkomitmen untuk mendampingi Petani dan menyalurkan Bantuan
+                        <h3 data-sal-duration="2000" data-sal-dalay="100" data-sal-easing="ease-out-bounce"
+                            data-sal="slide-up" class="text-uppercase">Kami berkomitmen untuk mendampingi Petani dan
+                            menyalurkan Bantuan
                             Pendanaan dari Investor.
                         </h3>
                         <br>
@@ -795,7 +804,13 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./node_modules/sal.js/dist/sal.js"></script>
     <script>
+        sal({
+            // threshold: 0.5,
+            // once: false,
+        });
+
         window.addEventListener('load', () => {
             const preload = document.querySelector('.preload');
             preload.classList.add('preload-finish');
