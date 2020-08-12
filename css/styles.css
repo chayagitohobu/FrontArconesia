@@ -56,6 +56,10 @@ h5 {
 
 }
 
+.smallerfont {
+    font-size: smaller;
+}
+
 .font1 {
     font-family: 'Roboto';
 }
