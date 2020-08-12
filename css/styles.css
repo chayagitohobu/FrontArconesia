@@ -53,10 +53,18 @@ h3 {
 h5 {
     font-weight: 900 !important;
     font-family: 'Roboto';
+
 }
 
 .font1 {
     font-family: 'Roboto';
+}
+
+.hoverfont {
+    text-transform: uppercase;
+    font-family: 'Karla';
+    font-size: small;
+    letter-spacing: 6px;
 }
 
 .btn {
