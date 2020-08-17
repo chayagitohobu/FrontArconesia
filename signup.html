@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/hoverbuttons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css?family=Libre+Baskerville%3A400%2C400italic%7CAbril+Fatface%7CKarla%3A400%2C700%7CRoboto%3A400%2C300&ver=4.7.5"
+        rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
+    <title>Arconesia</title>
+</head>
+
+<body>
+
+    <div class="preload">
+        <div class="spinner-grow text-light" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+
+    <!-- Jumbotron -->
+    <div class="container-fluid smaller pb-5">
+        <div class="container">
+            <div class="row h100">
+                <div class="col-lg-12 col-xl-6 smaller p-5">
+                    <!-- Vetical Space -->
+                    <div class="container h10"></div>
+                    <img class="card-img-top" style="height: 80vh;" src="images/sign_in1.svg" alt="Card image cap">
+                </div>
+                <div class="col-lg-12 col-xl-6 p-5" data-sal-duration="2000" data-sal-dalay="100"
+                    data-sal-easing="ease-out-bounce" data-sal="slide-right">
+                    <!-- BERINVESTASI CARD -->
+                    <div>
+                        <div class="card mb-5 mt-1" id="cardshadow" style="overflow: hidden;">
+                            <div class=" card-body">
+                                <!-- INVEST CONTENT -->
+                                <div class="card-text">
+                                    <hr>
+                                    <div class="card-text container text-center">
+                                        <h3 class="card-title" style="text-transform: uppercase;">
+                                            SIGN UP TO ARCONESIA
+                                        </h3>
+                                        <br>
+                                    </div>
+                                    <hr>
+                                    <!-- FORM INVESTASI -->
+                                    <div class="container pr-5 pl-5">
+                                        <form>
+                                            <div class="form-group container">
+                                                <label for="username">
+                                                    <p class="font2">EMAIL
+                                                    </p>
+                                                </label>
+                                                <input id="username" type="text" class="form-control">
+                                            </div>
+                                            <hr>
+                                            <div class="form-group container">
+                                                <label for="nohandphone">
+                                                    <p class="font2">NO.HANDPHONE
+                                                    </p>
+                                                </label>
+                                                <input id="nohandphone" type="number" class="form-control">
+                                            </div>
+                                            <hr>
+                                            <div class="form-group container">
+                                                <label for="password">
+                                                    <p class="font2">PASSWORD</p>
+                                                </label>
+                                                <input id="password" type="password" class="form-control">
+                                            </div>
+
+                                            <a href="">
+                                                <p class="color1 smaller">forgot your password ?</p>
+                                            </a>
+                                            <div class="container-fluid pr-5 pl-5 text-center">
+                                                <br>
+                                                <hr>
+                                                <button type="submit"
+                                                    class="hbtn hb-fill-right bg-color1 pl-5 pr-5">SIGN
+                                                    UP</button>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <!-- FORM INVESTASI END-->
+                                </div>
+                                <!-- INVEST CONTENT END -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BERINVESTASI CARD END -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./node_modules/sal.js/dist/sal.js"></script>
+    <script>
+        sal({
+            // threshold: 0.5,
+            // once: false,
+        });
+
+        window.addEventListener('load', () => {
+            const preload = document.querySelector('.preload');
+            preload.classList.add('preload-finish');
+        })
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/ulg/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
