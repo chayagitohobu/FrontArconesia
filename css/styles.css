@@ -309,6 +309,17 @@ a:hover .card-body h5,
     background-size: cover;
 }
 
+.profile-dashboard {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
 #cardshadow {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
 }
